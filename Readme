@@ -1,0 +1,7 @@
+This here is an attempt to make a Bluetooth jammer powered by the Esp32 and 2 Nrf24l01 modules.
+
+working principle:
+1.The Nrf24l01 modules are transceivers that generate signals in the 2.4Ghz frequency bands.
+2.The Esp32 produces random characters(noise) at regular intervals, these random characters are then modulated as noise by the Nrf24l01 which  then radiates this noise hence disrupting nearby Bluetooth connections therefore jamming the signal.
+
+This is for educational purposes only 🫣
